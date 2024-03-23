@@ -29,6 +29,20 @@ Seamlessly combining the robustness of Django for the backend and the dynamic in
 # Executing the Code
 To evaluate the code, it's necessary to run both the backend and frontend concurrently.
 ## Running the Backend
+
+### Create virtual environment (optional)
+Note: this is different based on the operating system.
+```
+python -m venv env
+env\scripts\activate.bat
+```
+
+### Install requirements
+```
+pip install -r requirements.txt
+```
+
+### Compile
 ```
 python backend\manage.py runserver
 ```
