@@ -26,9 +26,14 @@ Seamlessly combining the robustness of Django for the backend and the dynamic in
 
 * Video Transcoding (Optional): Consider using a service like Amazon Elastic Transcoder or FFmpeg to transcode uploaded videos into various formats for optimal playback across different devices/browsers.
 
-## Run backend
+# Executing the Code
+To evaluate the code, it's necessary to run both the backend and frontend concurrently.
+## Running the Backend
+```
+python backend\manage.py runserver
+```
 
-## Run frontend
+## Running the Frontend
 
 ### Project setup
 ```
